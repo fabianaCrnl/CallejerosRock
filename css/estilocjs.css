@@ -120,12 +120,17 @@ footer{
     background-color:  rgba(49, 59, 56, 0.562);
     text-align: center;
     display: flex;
-    padding: 5px;
 }
 .tamanologo{
-    width: 40px;
-    height: 40px;
-    margin: 15px;
+    width: 50px;
+    height: 55px;
+    margin-top: 18px;
+}
+.tamanofb{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 22px;
 }
 .imgportada{
     width: 600px;
@@ -180,5 +185,6 @@ footer{
 }
 .fontfooter{
     font-family: 'Bruno Ace SC', cursive;
-    font-size: 1.5rem;
+    font-size: 1.rem;
+    margin-top: 20px;
 }
