@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header nav div .imgnav {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+header h5 .logomh {
+  width: 120px;
+  height: 60px;
+  margin-left: 100px;
+}
+header li .letramenu {
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: rgba(49, 59, 56, 0.562);
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tamanologo {
+  height: 55px;
+  width: 55px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+}
+
+.tamanofb {
+  height: 45px;
+  width: 45px;
+  border-radius: 20px;
+}
+
+.fontfooter {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 1rem;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main .imgportada {
+  width: 600px;
+  right: 600px;
+  padding: 1px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+main .linksedit {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(38, 94, 139);
+}
+main .linksedit:hover {
+  background-color: rgba(88, 86, 86, 0.596);
+  color: white;
+}
+main p {
+  color: white;
+  padding: 2%;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: larger;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Rubik Iso", cursive;
+  color: white;
+  font-size: 4rem;
+  padding: 20px;
+}
+
+.logoinicio {
+  width: 300px;
+  height: 300px;
+  margin-left: 450px;
+}
+
+/*# sourceMappingURL=estilo2.css.map */

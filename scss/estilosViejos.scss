@@ -19,7 +19,7 @@ h2 {
 }
 
 .tipografia {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .tamanoletra {
@@ -61,7 +61,7 @@ p {
     font-size: 1.2rem;
     line-height: 2;
     padding: 2%;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
 }
 
 .letrablanca {
@@ -80,20 +80,20 @@ img {
 }
 
 h1 {
-    font-family: 'Rubik Iso', cursive;
+    font-family: "Rubik Iso", cursive;
     color: white;
     font-size: 3rem;
 }
 
 h2 {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     color: white;
     font-style: normal;
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 ul {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     color: white;
     font-size: 1rem;
 }
@@ -129,7 +129,7 @@ ol {
     color: rgb(255, 255, 255);
     text-decoration: none;
     display: inline-block;
-    font-family: 'Codystar', cursive;
+    font-family: "Codystar", cursive;
     font-size: medium;
 }
 
@@ -151,12 +151,12 @@ footer {
     margin-left: 50px;
     margin-right: 50px;
 }
-.tamanofb{
+
+.tamanofb {
     height: 65px;
     width: 65px;
     border-radius: 20px;
 }
-
 
 .imgportada {
     width: 600px;
@@ -166,17 +166,15 @@ footer {
 }
 
 .linksedit {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
     color: rgb(38, 94, 139);
-
 }
 
 .linksedit:hover {
     background-color: rgba(88, 86, 86, 0.596);
     color: white;
-
 }
 
 .formulario {
@@ -192,7 +190,6 @@ footer {
 
 .boton:hover {
     background-color: rgb(24, 158, 69);
-
 }
 
 .nbpropia {
@@ -204,7 +201,7 @@ footer {
     color: white;
     font-size: 1.5rem;
     text-align: center;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: "Bruno Ace SC", cursive;
 }
 
 .estilopropio:hover {
@@ -214,51 +211,60 @@ footer {
 }
 
 .encabezado {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: 3rem;
 }
 
 .fontfooter {
-    font-family: 'Bruno Ace SC', cursive;
-    font-size: 1.rem;
+    font-family: "Bruno Ace SC", cursive;
+    font-size: 1rem;
 }
-.imgnav{
+
+.imgnav OK{
     width: 50px;
     height: 50px;
 }
-.logomh{
+
+.logomh OK{
     width: 120px;
     height: 60px;
     margin-left: 100px;
 }
 
-.letramenu{
+.letramenu {
     font-size: 1.5rem;
 }
-.botoncards{
-background-color: white;
+
+.botoncards {
+    background-color: white;
 }
-.botoncards:hover{
-background-color: rgb(17, 185, 93);
+
+.botoncards:hover {
+    background-color: rgb(17, 185, 93);
 }
-.letracard{
+
+.letracard {
     color: black;
 }
+
 .tamanologo2 {
     height: 45px;
     width: 45px;
 }
-.imgcards{
+
+.imgcards {
     height: 250px;
     width: 200px;
 }
-.margcards{
+
+.margcards {
     margin-left: 50px;
 }
-.tamanofb2{
+
+.tamanofb2 {
     height: 40px;
     width: 40px;
     border-radius: 10px;
 }
 
-/*# sourceMappingURL=estilocjs.css.map */
+/*# sourceMappingURL=estilo2.css.map */
