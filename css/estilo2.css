@@ -57,6 +57,7 @@ main .imgportada {
   padding: 1px;
   margin-top: 20px;
   border-radius: 20px;
+  margin-right: 60px;
 }
 main .linksedit {
   font-family: "Nanum Gothic", sans-serif;
@@ -87,6 +88,12 @@ h1 {
   width: 300px;
   height: 300px;
   margin-left: 450px;
+}
+
+main .destacada {
+  font-size: 2rem;
+  color: rgba(189, 20, 20, 0.685);
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilo2.css.map */
