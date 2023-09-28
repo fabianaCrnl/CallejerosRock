@@ -4,3 +4,13 @@
     padding: 1rem;
     border: white solid 2px;
 }
+.textoformulario{
+    color: white;
+    padding: 10px;
+}
+.boton {
+    background-color: rgba(88, 86, 86, 0.596);
+    &:hover{
+        background-color: rgb(24, 158, 69);
+}
+}

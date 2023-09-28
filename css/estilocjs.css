@@ -172,14 +172,8 @@ footer {
     border: white solid 2px;
 }
 
-.boton {
-    background-color: rgba(88, 86, 86, 0.596);
-}
 
-.boton:hover {
-    background-color: rgb(24, 158, 69);
 
-}
 
 .nbpropia {
     background-color: rgba(49, 59, 56, 0.562);
