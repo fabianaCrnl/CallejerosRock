@@ -90,10 +90,33 @@ h1 {
   margin-left: 450px;
 }
 
+main p .pbio {
+  line-height: 2;
+}
 main .destacada {
   font-size: 2rem;
-  color: rgba(189, 20, 20, 0.685);
+  color: red;
   font-weight: bold;
+}
+
+main .tamano2 {
+  width: 450px;
+  margin: 10px;
+}
+main .tamanoimagen {
+  width: 350px;
+  padding: 30px;
+}
+main .encabezado {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 3rem;
+  color: white;
+  margin-left: 50px;
+}
+
+main div div div .tamanoimagencd {
+  width: 10px;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=estilo2.css.map */

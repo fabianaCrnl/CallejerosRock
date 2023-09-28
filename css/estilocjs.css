@@ -26,16 +26,6 @@ h2 {
     font-size: 18px;
 }
 
-.tamanoimagen {
-    width: 300px;
-    margin: 10px;
-}
-
-.tamano2 {
-    width: 450px;
-    margin: 10px;
-}
-
 .tamano3 {
     width: 500px;
 }
@@ -98,11 +88,7 @@ ul {
     font-size: 1rem;
 }
 
-.tamanoimagencd {
-    width: 350px;
-    display: block;
-    padding: 30px;
-}
+
 
 ol {
     color: white;
@@ -213,10 +199,6 @@ footer {
     border-radius: 15px;
 }
 
-.encabezado {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 3rem;
-}
 
 .fontfooter {
     font-family: 'Bruno Ace SC', cursive;
