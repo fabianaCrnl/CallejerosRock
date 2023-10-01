@@ -22,7 +22,6 @@ footer {
   background-color: rgba(49, 59, 56, 0.562);
   text-align: center;
   margin: 0 auto;
-  padding: 40px;
   margin-top: 20px;
 }
 
@@ -100,32 +99,110 @@ main .destacada {
   font-weight: bold;
 }
 
-main .encabezado {
+.encabezado {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 3rem;
   color: white;
   margin-left: 50px;
-  padding: 15px;
   text-align: center;
+  padding-bottom: 500px;
 }
 
-.padre {
-  margin: 10px auto;
-  font-size: 2rem;
+.galeria {
+  width: 100%;
+  margin: auto;
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
-  grid-auto-rows: 3fr 3fr 3fr 3fr;
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.galeria .imggaleria {
+  width: 100%;
 }
 
-.hijo {
-  width: 300px;
+.imggaleria2 {
+  height: 400px;
+}
+
+.imggaleria4 {
+  height: 400px;
+}
+
+.imggaleria3 {
   height: 300px;
-  object-fit: cover;
-  padding: 20px;
+  margin-top: 40px;
 }
 
+.imggaleria1 {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 450px;
+}
+
+.a01:nth-child(1) {
+  grid-column-start: span 2;
+}
+
+.a1:nth-child(2) {
+  grid-column-start: span 1;
+}
+
+.a2:nth-child(3) {
+  grid-column-start: span 2;
+}
+
+.a3:nth-child(4) {
+  grid-column-start: span 1;
+}
+
+.a4:nth-child(5) {
+  grid-column-start: span 2;
+  margin-top: 100px;
+}
+
+.a5:nth-child(6) {
+  grid-column-start: span 2;
+  margin-top: 100px;
+}
+
+.a6:nth-child(7) {
+  grid-column-start: span 2;
+}
+
+.a7:nth-child(8) {
+  grid-column-start: span 2;
+}
+
+.a8:nth-child(9) {
+  grid-column-start: span 2;
+}
+
+.a9:nth-child(10) {
+  grid-column-start: span 2;
+}
+
+.a10:nth-child(11) {
+  grid-column-start: span 2;
+}
+
+.a11:nth-child(12) {
+  grid-column-start: span 2;
+}
+
+.a12:nth-child(13) {
+  grid-column-start: span 2;
+  margin-top: 70px;
+}
+
+@media screen and (min-widht: 320px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-widht: 1024px) {
+  .galeria {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
 main .titlecd {
   font-size: 2rem;
   color: white;
