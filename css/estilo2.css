@@ -113,44 +113,70 @@ main .destacada {
   padding: 150px;
   margin: 20px auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(6, 0.5fr);
-  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
 }
-.galeria .imggaleria {
-  height: 100%;
-  width: 100%;
-}
-
-.imggaleria2 {
+.galeria .imggaleria1 {
   width: 400px;
+  height: 400px;
+}
+.galeria .imggaleria2 {
+  width: 400px;
+  height: 400px;
+}
+.galeria .imggaleria3 {
+  width: 600px;
+  height: 400px;
+}
+.galeria .imggaleria4 {
+  width: 600px;
+  height: 400px;
+}
+.galeria .imggaleria5 {
+  width: 600px;
+  height: 400px;
+}
+.galeria .imggaleria8 {
+  width: 900px;
+  height: 400px;
 }
 
-.imagengaleria3 {
-  width: 300px;
+.itemgaleria:nth-child(3) {
+  grid-column-start: span 2;
 }
 
-@media screen and (min-widht: 320px) {
-  .galeria {
-    grid-template-columns: 1fr;
-  }
+.itemgaleria:nth-child(4) {
+  grid-column-start: span 2;
 }
-@media screen and (min-widht: 1024px) {
-  .galeria {
-    grid-template-columns: repeat(3, 1fr);
-  }
+
+.itemgaleria:nth-child(5) {
+  grid-column-start: span 2;
 }
-main .titlecd {
-  font-size: 2rem;
+
+.itemgaleria:nth-child(8) {
+  grid-column-start: span 2;
+}
+
+main h2 {
   color: white;
-  margin-left: 10px;
+  margin: 15px;
+  padding-bottom: 80px;
 }
-main .tamanoimagencd {
-  width: 300px;
-  padding: 15px;
+main h4 {
+  color: white;
+  text-align: center;
+  text-decoration: wavy;
+  padding: 30px;
+  font-style: oblique;
+  font-size: 2rem;
 }
-main .tamanoimagencd:hover {
-  transform: scale(1.2, 1.2);
+main .yt {
+  margin-left: 500px;
+}
+
+.imgcd {
+  width: 200px;
+  height: 200px;
 }
 
 .formulario {

@@ -1,14 +1,23 @@
 main{
-    .titlecd{
-        font-size: 2rem;
+    h2{
         color: white;
-        margin-left: 10px;
+        margin: 15px;
+        padding-bottom: 80px;
     }
-    .tamanoimagencd{
-        width: 300px;
-        padding: 15px;
-        &:hover{
-            transform: scale(1.2, 1.2);
+    h4{
+        color: white;
+        text-align: center;
+        text-decoration:wavy;
+        padding: 30px;
+        font-style: oblique;
+        font-size: 2rem;
+    }
+        .yt{
+            margin-left: 500px;
         }
     }
-}
+    .imgcd{
+        width: 200px;
+        height: 200px;
+        
+    }
