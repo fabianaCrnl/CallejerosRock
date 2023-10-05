@@ -7,6 +7,8 @@
     text-align: center;
     padding-bottom: 500px;
 } 
+.contenedor{
+    padding-top: 200px;
 .galeria{
         width: 100%;
         padding-left: 50px;
@@ -50,6 +52,7 @@
             height: 400px;
         }
 }
+}
 .itemgaleria:nth-child(3){
     grid-column-start: span 2;
 }
@@ -82,38 +85,4 @@
 }
 .itemgaleria:nth-child(17){
     grid-column-start: span 2;
-}
-.itemgaleria:nth-child(18){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(19){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(20){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(21){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(22){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(23){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(24){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(25){
-    grid-column-start: span 2;
-}
-.itemgaleria:nth-child(26){
-    grid-column-start: span 1;
-}
-/*nuestraraza*/
-.itemgaleria:nth-child(27){
-    grid-column-start: span 1;
-}
-.itemgaleria:nth-child(28){
-    grid-column-start: span 1;
 }
