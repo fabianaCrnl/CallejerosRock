@@ -3,17 +3,12 @@ body{
 }
 .textoindex{
     color: white;
-    font-size: 26px;
+    font-size: 20px;
 }
 .logoinicio{
  width: 300px;
  margin-top: 200px;
  margin-left: 550px;
-}
-h2index{
-    color: white;
-    font-size: 2rem;
-    margin-top: -350px;
 }
 .container { 
     display: grid;
@@ -30,7 +25,6 @@ h2index{
   
   .main { grid-area: main; }
   
-  .aside { grid-area: aside; }
   
   .header { grid-area: header; }
   

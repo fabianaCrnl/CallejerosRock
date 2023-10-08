@@ -1,9 +1,13 @@
 .formulario{
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     padding: 1rem;
     border: white solid 2px;
     padding-bottom: 20px;
+}
+.pcontacto{
+font-size: 28px;
+padding-top: 150px;
 }
 .textoformulario{
     color: white;
@@ -15,7 +19,8 @@
         background-color: rgb(24, 158, 69);
 }
 }
-.container {  display: grid;
+.container { 
+    display: grid;
     grid-template-columns: 6.2fr;
     grid-template-rows: 0.5fr 2.9fr 0.7fr;
     grid-auto-columns: 1fr;
@@ -63,6 +68,6 @@
               "footer";
       }
       .formulario{
-        width: 400px;
+        width: 500px;
     }
   }
