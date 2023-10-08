@@ -6,6 +6,8 @@
 p{
     margin: 20px;
     text-align: center;
+    color: white;
+    font-size: 26px;
 }
 
 h2 {
@@ -16,6 +18,11 @@ h2 {
     font-size: 3rem;
     color: red;
     text-align: center;
+}
+.linksedit{
+    text-decoration: none;
+    font-size: 26px;
+    color: greenyellow;
 }
 
 .container {
@@ -73,7 +80,7 @@ h2 {
     }
     .p{
         margin: 5px;
-        text-align: start;
+        font-size: 16px;
     }
 }
 
