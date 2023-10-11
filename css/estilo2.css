@@ -1,41 +1,4 @@
 @charset "UTF-8";
-body {
-  background-color: black;
-}
-
-.textoindex {
-  color: white;
-  font-size: 20px;
-}
-
-.logoinicio {
-  width: 300px;
-  margin-top: 200px;
-  margin-left: 550px;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 0.6fr 0.5fr;
-  grid-template-rows: 0.5fr 2.9fr 0.7fr;
-  grid-auto-columns: 1fr;
-  gap: 3px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "header header" "main aside" "footer footer";
-}
-
-.main {
-  grid-area: main;
-}
-
-.header {
-  grid-area: header;
-}
-
-.footer {
-  grid-area: footer;
-}
-
 .formulario {
   width: 900px;
   margin: 0 auto;
@@ -173,7 +136,6 @@ body {
 }
 
 p {
-  margin: 20px;
   text-align: center;
   color: white;
   font-size: 26px;
@@ -499,6 +461,85 @@ main .yt {
   main p {
     font-size: 16px;
     line-height: 1.5;
+  }
+}
+body {
+  background-color: black;
+}
+body .imgportada {
+  text-align: center;
+}
+body .logoinicio {
+  width: 400px;
+  margin-top: 150px;
+  margin-left: 580px;
+}
+
+.main {
+  margin-top: -200px;
+}
+.main p {
+  font-size: 26px;
+}
+.main .linksedit {
+  text-decoration: none;
+  font-size: 26px;
+  color: rgb(38, 16, 233);
+}
+.main .linksedit:hover {
+  background-color: rgba(255, 255, 255, 0.548);
+  border-radius: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 2.9fr 0.7fr;
+  grid-auto-columns: 1fr;
+  gap: 3px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 2.9fr 0.7fr;
+    grid-auto-columns: 1fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header header" "main aside" "footer footer";
+  }
+}
+@media screen and (min-width: 480px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2.9fr 0.7fr 0.5fr;
+    grid-auto-columns: 1fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "aside" "main" "footer";
+  }
+  .logoinicio {
+    width: 200px;
   }
 }
 
