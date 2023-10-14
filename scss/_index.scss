@@ -1,38 +1,48 @@
-body{
+body {
   background-color: black;
-  .imgportada{
-    text-align: center;
-  }
+
   .logoinicio {
     width: 400px;
-    margin-top: 150px;
-    margin-left: 580px;
   }
 }
-.main{
-  margin-top: -200px;
-    p{
+main{
+p{
+  font-size: 20px;
+}
+}
+
+.linksedit {
+  text-decoration: none;
   font-size: 26px;
-    }
-    .linksedit{
-      text-decoration: none;
-      font-size: 26px;
-      color: rgb(38, 16, 233);
-      &:hover{
-        background-color: rgba(255, 255, 255, 0.548);
-        border-radius: 10px;
-      }
+  color: rgba(28, 15, 150, 0.644);
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 10px;
   }
 }
+.imgportada {
+  width: 350px;
+  }
+    p{
+      margin: 10px;
+      font-size: 20px;
+    }
+    .logoinicio {
+      margin-left: 50px;
+      margin-top: 100px;
+    }
+    main{
+      margin-top: -100px;
+    }
 .container { 
- display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.5fr 2.9fr 0.7fr;
   grid-auto-columns: 1fr;
   gap: 3px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "header header"
+    ". ."
     "main aside"
     "footer footer";
 }
@@ -41,39 +51,34 @@ body{
 
 .aside { grid-area: aside; }
 
-.header { grid-area: header; }
-
 .footer { grid-area: footer; }
 
-@media screen and (min-width:1024px){
-  .container { 
-    display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 0.5fr 2.9fr 0.7fr;
-     grid-auto-columns: 1fr;
-     gap: 3px 0px;
-     grid-auto-flow: row;
-     grid-template-areas:
-       "header header"
-       "main aside"
-       "footer footer";
-   } 
-}
-@media screen and (min-width:480px){
-  .container { 
-    display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 0.5fr 2.9fr 0.7fr 0.5fr;
-     grid-auto-columns: 1fr;
-     gap: 3px 0px;
-     grid-auto-flow: row;
-     grid-template-areas:
-       "header"
-       "aside"
-       "main"
-       "footer";
-   } 
-   .logoinicio {
-    width: 200px;
-  }
-}
+
+
+    @media (max-width:480px){
+      
+      .logoinicio {
+        margin-top: 100px;
+      }
+      main{
+        margin-top: -300px;
+      }
+    }
+
+    @media (max-width:1024px){
+      
+      .logoinicio {
+        margin-left: 250px;
+        margin-top: 100px;
+      }
+      main{
+        p{
+          font-size: 20px;
+        }
+
+      }
+      .imgportada {
+        width: 500px;
+        height: 400px;
+        }
+    }
