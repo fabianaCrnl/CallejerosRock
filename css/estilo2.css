@@ -72,30 +72,24 @@
     width: 500px;
   }
 }
-.container {
-  display: grid;
-  grid-template-columns: 6.2fr 2.3fr 0.1fr;
-  grid-template-rows: 0.5fr 2.9fr 0.7fr 0.4fr;
-  grid-auto-columns: 1fr;
-  gap: 20px;
-  grid-auto-flow: row;
-  grid-template-areas: "header header ." "main main ." "footer footer ." ". . .";
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 250px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-around;
 }
 
-.header {
-  grid-area: header;
-}
-
-.footer {
-  grid-area: footer;
-}
-
-.main {
-  grid-area: main;
-}
-
-.letramenu {
-  font-size: 1.5rem;
+.flex-container2 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .botoncards {
@@ -106,28 +100,43 @@
   background-color: rgb(17, 185, 93);
 }
 
-.letracard {
-  color: black;
+.tamanologo2 {
+  height: 30px;
+  width: 30px;
 }
 
-.tamanologo2 {
-  height: 45px;
-  width: 45px;
+.tamanofb2 {
+  height: 26px;
+  width: 27px;
+  border-radius: 10px;
 }
 
 .imgcards {
   height: 250px;
   width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-.margcards {
-  margin: 600px;
+.cardpropia {
+  background-color: rgba(54, 48, 48, 0.37);
 }
 
-.tamanofb2 {
-  height: 40px;
-  width: 40px;
-  border-radius: 10px;
+.logoredes {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.logoredes2 {
+  margin-left: 100px;
+}
+
+.titulopropio {
+  color: white;
+}
+
+.p1 {
+  margin-top: 200px;
 }
 
 .imgcromañon {
