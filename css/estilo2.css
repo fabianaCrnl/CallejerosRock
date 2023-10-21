@@ -328,44 +328,37 @@ main .yt {
 body {
   background-color: black;
 }
-body .logoinicio {
-  width: 400px;
+body aside .imgportada {
+  width: 500px;
+  height: 700px;
+  padding-top: 400px;
 }
-
-main p {
+body main {
+  padding-top: -300px;
+}
+body main h2 {
+  margin: 50px;
+}
+body main p {
   font-size: 20px;
 }
-
-.linksedit {
+body main p .linksedit {
   text-decoration: none;
   font-size: 26px;
-  color: rgba(28, 15, 150, 0.644);
+  color: rgba(150, 15, 15, 0.644);
 }
-.linksedit:hover {
+body main p .linksedit:hover {
   background-color: rgba(255, 255, 255, 0.699);
   border-radius: 10px;
 }
 
-.imgportada {
-  width: 350px;
-}
-
-p {
-  margin: 10px;
-  font-size: 20px;
-}
-
-.logoinicio {
-  margin-left: 50px;
-  margin-top: 100px;
-}
-
-main {
-  margin-top: -100px;
+head .flex-container .logoinicio {
+  margin-bottom: -150px;
 }
 
 .container {
   display: grid;
+  padding-top: -100px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.5fr 2.9fr 0.7fr;
   grid-auto-columns: 1fr;
@@ -384,32 +377,6 @@ main {
 
 .footer {
   grid-area: footer;
-}
-
-@media (max-width: 480px) {
-  .logoinicio {
-    margin-top: 100px;
-  }
-  main {
-    margin-top: -300px;
-  }
-  .imgportada {
-    width: 200px;
-    height: 200px;
-  }
-}
-@media (max-width: 1024px) {
-  .logoinicio {
-    margin-left: 250px;
-    margin-top: 100px;
-  }
-  main p {
-    font-size: 20px;
-  }
-  .imgportada {
-    width: 500px;
-    height: 400px;
-  }
 }
 
 /*# sourceMappingURL=estilo2.css.map */
