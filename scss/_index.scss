@@ -1,62 +1,99 @@
 body {
   background-color: black;
+  main{
+    .textoinicio{
+      font-size: 20px;
+      color: white;
+    }
+    .linksedit{
+      text-decoration: none;
+      font-size: 20px;
+      color: rgba(255, 61, 47, 0.705);
+      &:hover{
+          background-color: rgba(95, 91, 88, 0.486);
+      }
+  }
+    .inicio{
+      color: white;
+      margin: 20px;
+      text-align: center;
+      }
+  }
   aside{
-    .imgportada {
+    .imgportada{
       width: 500px;
-      height: 700px;
-      padding-top: 400px;
-    }
-    }
-    main {
-      padding-top: -300px;
-      h2{
-        margin: 50px;
-      }
-      p {
-        font-size: 20px;
-        .linksedit {
-          text-decoration: none;
-          font-size: 26px;
-          color: rgba(150, 15, 15, 0.644);
-        
-          &:hover {
-            background-color: rgba(255, 255, 255, 0.699);
-            border-radius: 10px;
-          }
-        }
-      }
+      padding-top: 300px;
+      height: 750px;
     }
   }
-  head{
-      .flex-container{
-    .logoinicio{
-      margin-bottom: -150px;
-    }
-  }
-  }
-
-.container {
-  display: grid;
-  padding-top: -100px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 2.9fr 0.7fr;
-  grid-auto-columns: 1fr;
-  gap: 3px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". ."
-    "main aside"
-    "footer footer";
 }
-
-.main {
+main{
+  margin: 30px;
   grid-area: main;
 }
-
-.aside {
+aside{
   grid-area: aside;
 }
-
-.footer {
+footer{
   grid-area: footer;
+}
+h1{
+  margin-top: 100px;
+  text-align: center;
+}
+.contenedor{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3 1fr);
+  grid-template-areas: 
+  "header header"
+  "main aside"
+  "footer footer"
+  ; 
+  gap: 10px;
+}
+@media (max-width:1024px){
+  .contenedor{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3 1fr);
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer"
+    ; 
+  }
+  .imgportada{
+    width: 500px;
+    height: 700px;
+    margin-top: 300px;
+  }
+}
+@media (max-width:480px){
+  .contenedor{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4 1fr);
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "aside aside"
+    "footer footer"
+    ; 
+  }
+  .imgportada{
+    width: 450px;
+    height: 700px;
+    margin-top: -250px;
+    margin-bottom: 50px;
+    
+  }
+  .h2 .p{
+    font-size: 18px;
+  }
+  .inicio{
+    color: white;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    }
 }

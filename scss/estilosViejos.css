@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2%;
+}
+
+h2 {
+  color: antiquewhite;
+}
+
+.letraroja {
+  color: rgb(255, 0, 0);
+}
+
+.tipografia {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.tamanoletra {
+  font-size: 18px;
+}
+
+.tamanoimagen {
+  width: 300px;
+  margin: 10px;
+}
+
+.tamano2 {
+  width: 450px;
+  margin: 10px;
+}
+
+.tamano3 {
+  width: 500px;
+}
+
+.margen {
+  margin-bottom: 200px;
+}
+
+.letranegrita {
+  font-weight: bold;
+}
+
+.portada {
+  text-align: right;
+}
+
+.a {
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2;
+  padding: 2%;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.letrablanca {
+  color: white;
+}
+
+img {
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.margen {
+  margin: 1px 10px 5px 10px;
+}
+
+h1 {
+  font-family: "Rubik Iso", cursive;
+  color: white;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: white;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+ul {
+  font-family: "Nanum Gothic", sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+.tamanoimagencd {
+  width: 350px;
+  display: block;
+  padding: 30px;
+}
+
+ol {
+  color: white;
+}
+
+.titlecd {
+  font-size: 2rem;
+}
+
+.menu {
+  background-color: rgba(128, 120, 120, 0.342);
+  padding: 0%;
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Codystar", cursive;
+  font-size: medium;
+}
+
+.menu li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 10%;
+}
+
+footer {
+  background-color: rgba(49, 59, 56, 0.562);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tamanologo {
+  height: 80px;
+  width: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tamanofb {
+  height: 65px;
+  width: 65px;
+  border-radius: 20px;
+}
+
+.imgportada {
+  width: 600px;
+  padding: 1px;
+  margin-top: 200px;
+  border-radius: 20px;
+}
+
+.linksedit {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(38, 94, 139);
+}
+
+.linksedit:hover {
+  background-color: rgba(88, 86, 86, 0.596);
+  color: white;
+}
+
+.formulario {
+  width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: white solid 2px;
+}
+
+.boton {
+  background-color: rgba(88, 86, 86, 0.596);
+}
+
+.boton:hover {
+  background-color: rgb(24, 158, 69);
+}
+
+.nbpropia {
+  background-color: rgba(49, 59, 56, 0.562);
+  text-align: center;
+}
+
+.estilopropio {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+.estilopropio:hover {
+  background-color: rgba(62, 65, 104, 0.637);
+  color: white;
+  border-radius: 15px;
+}
+
+.encabezado {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 3rem;
+}
+
+.fontfooter {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 1rem;
+}
+
+.imgnav OK {
+  width: 50px;
+  height: 50px;
+}
+
+.logomh OK {
+  width: 120px;
+  height: 60px;
+  margin-left: 100px;
+}
+
+.letramenu {
+  font-size: 1.5rem;
+}
+
+.botoncards {
+  background-color: white;
+}
+
+.botoncards:hover {
+  background-color: rgb(17, 185, 93);
+}
+
+.letracard {
+  color: black;
+}
+
+.tamanologo2 {
+  height: 45px;
+  width: 45px;
+}
+
+.imgcards {
+  height: 250px;
+  width: 200px;
+}
+
+.margcards {
+  margin-left: 50px;
+}
+
+.tamanofb2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=estilosViejos.css.map */
