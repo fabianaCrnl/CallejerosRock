@@ -1,9 +1,11 @@
 body {
   background-color: black;
   main{
-    .textoinicio{
-      font-size: 20px;
-      color: white;
+    padding-top: 80px;
+    margin: 30px;
+    grid-area: main;
+    h1{
+      font-family: 'Koulen', sans-serif;
     }
     .linksedit{
       text-decoration: none;
@@ -22,14 +24,15 @@ body {
   aside{
     .imgportada{
       width: 500px;
-      padding-top: 300px;
-      height: 750px;
+      padding-top: 200px;
+      height: 600px;
     }
   }
 }
-main{
-  margin: 30px;
-  grid-area: main;
+.textoinicio{
+  font-size: 20px;
+  color: white;
+  font-family: 'Cutive Mono', monospace;
 }
 aside{
   grid-area: aside;

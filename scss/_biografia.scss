@@ -1,116 +1,140 @@
-body{
-    header{
-        h1{
+body {
+    header {
+        h1 {
             color: white;
             padding-top: 50px;
+            font-family: 'Koulen', sans-serif;
         }
     }
-main{
-    grid-area: main;
-        .flex-container{
-        display: flex;
-        flex-flow: row wrap;
-        padding: 50px;
-        padding-bottom: 50px;
-        margin: 0 auto;
-        justify-content:space-around;
+
+    main {
+        grid-area: main;
+
         h2 {
-            padding: 20px;
+            font-family: 'Koulen', sans-serif;
         }
-        .img1{
-            width: 210px;
-            margin: 10px;
-            transition: all 2s ease;
-            &:hover{
-                transform:scale(1.5)
+
+        .pbio {
+            font-size: 20px;
+            color: white;
+            font-family: 'Cutive Mono', monospace;
+            ;
+        }
+
+        .destacada {
+            font-size: 2rem;
+            color: red;
+            text-align: center;
+            font-family: 'Holtwood One SC', serif;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-flow: row wrap;
+            padding: 50px;
+            padding-bottom: 50px;
+            margin: 0 auto;
+            justify-content: space-around;
+
+            .linksedit {
+                text-decoration: none;
+                font-size: 20px;
+                color: rgba(255, 61, 47, 0.705);
+
+                &:hover {
+                    background-color: rgba(95, 91, 88, 0.486);
                 }
             }
-        .img2{
-            width: 300px;
-            margin: 30px;
-            transition: all 2s ease;
-            &:hover{
-                transform:scale(1.4)
+
+            h2 {
+                padding: 20px;
+            }
+
+            .img1 {
+                width: 210px;
+                margin: 10px;
+                transition: all 2s ease;
+
+                &:hover {
+                    transform: scale(1.5)
                 }
-        }
-        .img3{
-            width: 250px;
-            margin: 20px;
-            transition: all 2s ease;
-            &:hover{
-                transform:scale(1.4)
+            }
+
+            .img2 {
+                width: 300px;
+                margin: 30px;
+                transition: all 2s ease;
+
+                &:hover {
+                    transform: scale(1.4)
                 }
-        }
-        .img4{
-            width: 210px;
-            margin: 10px;
-            transition: all 2s ease;
-            &:hover{
-                transform:scale(1.7)
+            }
+
+            .img3 {
+                width: 200px;
+                margin: 20px;
+                transition: all 2s ease;
+
+                &:hover {
+                    transform: scale(1.4)
                 }
+            }
+
+            .img4 {
+                width: 210px;
+                margin: 10px;
+                transition: all 2s ease;
+
+                &:hover {
+                    transform: scale(1.7)
+                }
+            }
         }
-}
-}
-}
-header{
-    grid-area: header;
-}
-footer{
-    grid-area: footer;
-}
-.destacada {
-    font-size: 2rem;
-    color: red;
-    text-align: center;
-}
-.pbio{
-    font-size: 20px;
-    color: white;
-}
-.linksedit{
-    text-decoration: none;
-    font-size: 20px;
-    color: rgba(255, 61, 47, 0.705);
-    &:hover{
-        background-color: rgba(95, 91, 88, 0.486);
     }
 }
-.contenedor{
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.contenedor {
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-    ; 
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
     gap: 10px;
-  }
+}
 
-  @media (max-width:1024px){
-    .contenedor{
+@media (max-width:1024px) {
+    .contenedor {
         width: 100vw;
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3fr 1fr;
-        grid-template-areas: 
-        "header"
-        "main"
-        "footer"
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
         ;
-     }
-  }
-  @media (max-width:480px){
-    .flex-container{
+    }
+}
+
+@media (max-width:480px) {
+    .flex-container {
         display: flex;
         padding-bottom: 50px;
         margin: 0 auto;
-        justify-content:space-between;
-  }
+        justify-content: space-between;
+    }
 }
-
-
-

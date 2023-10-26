@@ -1,57 +1,93 @@
-.formulario{
-    width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
-    border: white solid 2px;
-    padding-bottom: 20px;
+body {
+    h1 {
+        font-family: 'Koulen', sans-serif;
+    }
+
+    main {
+        .formulario {
+            width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            border: white solid 2px;
+            padding-bottom: 40px;
+            border-radius: 10px;
+
+            .boton {
+                margin-top: 15px;
+                background-color: rgba(88, 86, 86, 0.596);
+
+                &:hover {
+                    background-color: rgb(24, 158, 69);
+                }
+            }
+
+            .textoformulario {
+                color: white;
+                padding: 10px;
+                font-family: $fontparrafos;
+            }
+        }
+
+        .pcontacto {
+            font-size: 20px;
+            color: white;
+            padding-bottom: 50px;
+            margin: 10px;
+            font-family: $fontparrafos;
+        }
+    }
 }
-.pcontacto{
-    font-size: 20px;
-    color: white;
-    padding-top: -100px;
-    padding-bottom: 50px;
-    margin: 10px;
-}
-.textoformulario{
-    color: white;
-    padding: 10px;
-}
-h1{
-    padding-top: 200px;
-    text-align: center;
-}
-.boton {
-    background-color: rgba(88, 86, 86, 0.596);
-    &:hover{
-        background-color: rgb(24, 158, 69);
-}
-}
-.contenedor{
+
+.contenedor {
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-    ; 
-  }
-  @media (max-width:480px){
-    .contenedor{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: 
+    grid-template-rows: repeat(3 1fr);
+    grid-template-areas:
         "header"
         "main"
         "footer"
-        ; 
-      }
-      .formulario{
-        width: 350px;
-        margin: 0 auto;
-        border: white solid 2px;
-        padding-bottom: 20px;
+    ;
+    gap: 10px;
+}
+
+@media (max-width:1024px) {
+    .contenedor {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3 1fr);
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
+        ;
+        gap: 10px;
     }
-  }
+}
+
+@media (max-width:480px) {
+    .contenedor {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3 1fr);
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
+        ;
+    }
+
+    .formulario {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: white solid 2px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+    }
+}
